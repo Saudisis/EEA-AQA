@@ -116,9 +116,11 @@ Combines all datasets (EEA, ERA5, Sentinel) through coordinate matching and aver
 ## Repository Structure
 
 ```
-AQA/
+EEA_AQA/
 │
-├── EEA_AQA.ipynb        # Main analysis notebook
+├── EEA_AQA.ipynb             # Main analysis notebook
+├── stations_clean.csv        # CSV file for stations metadata from EEA
+├── stations_clean.parquet    # PARQUET file for stations metadata from EEA
 ├── environment.yml           # Conda environment for windows
 ├── nobuilds.yml              # Conda environment for Mac
 ├── requirements.txt          # pip dependencies
