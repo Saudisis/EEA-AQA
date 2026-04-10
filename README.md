@@ -118,13 +118,14 @@ Combines all datasets (EEA, ERA5, Sentinel) through coordinate matching and aver
 ```
 EEA_AQA/
 │
-├── EEA_AQA.ipynb             # Main analysis notebook
-├── stations_clean.csv        # CSV file for stations metadata from EEA
-├── stations_clean.parquet    # PARQUET file for stations metadata from EEA
-├── environment.yml           # Conda environment for windows
-├── nobuilds.yml              # Conda environment for Mac
-├── requirements.txt          # pip dependencies
-└── README.md                 # Project documentation
+├── EEA_AQA.ipynb              # Main analysis notebook
+├── EEA_Metadata_Clean.ipynb   # Metada cleaning and preprocessing for further use in the pipelin (creating a clean dataframe)
+├── eea_sensor_meta.csv        # CSV file for stations metadata from EEA
+├── eea_sensor_meta.parquet    # PARQUET file for stations metadata from EEA
+├── environment.yml            # Conda environment for windows
+├── nobuilds.yml               # Conda environment for Mac
+├── requirements.txt           # pip dependencies
+└── README.md                  # Project documentation
 ```
 
 ---
